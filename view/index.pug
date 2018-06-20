@@ -1,0 +1,31 @@
+html
+
+	head
+		title #{title}
+		meta(charset="utf-8")
+
+	body
+		h1 hello dull
+		ul
+			li
+				a(href="/page/page1") page1
+			li
+				a(href="/page/page2") page2
+			li
+				a(href="/page/page3") page3
+		ul
+			li
+				button#get 点我get
+			li
+				button#post 点我post
+			li
+				button#setCookie setCookie
+			li
+				button#delCookie delCookie
+			li
+				button#setSession setSession
+			li
+				button#getSession getSession
+
+		script(src="/js/jquery_1.9.1.js")
+		script(src="/js/index.js")
